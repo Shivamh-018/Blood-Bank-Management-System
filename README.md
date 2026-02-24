@@ -37,11 +37,11 @@ database → SQL file
 
 ## ▶️ Run Project
 
-- Import project in Eclipse
-- Configure Apache Tomcat
-- Run on Server
-- Open:
-  http://localhost:8080/BloodBank/
+1. Import project in Eclipse
+2. Configure Apache Tomcat (Port: 7777)
+3. Run on Server
+4. Open in browser:
+http://localhost:7777/Blood_Bank_Management_System/
 
 ---
 
