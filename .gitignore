@@ -1,0 +1,15 @@
+# Eclipse files
+.settings/
+.project
+.classpath
+
+# Build folder
+build/
+bin/
+
+# Compiled files
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db
