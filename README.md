@@ -46,3 +46,6 @@ http://localhost:7777/Blood_Bank_Management_System/
 ---
 
 👨‍💻 Developed by Shivam Honrao
+
+<img width="1902" height="962" alt="image" src="https://github.com/user-attachments/assets/6e14c54a-25ba-449e-a862-4a334beaf358" />
+
