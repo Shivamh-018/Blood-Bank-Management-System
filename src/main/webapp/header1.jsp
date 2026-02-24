@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body{
+    margin:0;
+    font-family:"Segoe UI", Arial, sans-serif;
+}
+
+/* ===== MEDICAL HEADER ===== */
+.header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:linear-gradient(90deg,#b71c1c,#0d47a1);
+    padding:14px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* ===== LOGO ===== */
+.logo{
+    display:flex;
+    align-items:center;
+    color:white;
+    font-size:22px;
+    font-weight:600;
+}
+
+.logo i{
+    font-size:26px;
+    margin-right:10px;
+}
+
+/* ===== NAV ===== */
+.nav{
+    display:flex;
+    align-items:center;
+}
+
+.nav a{
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    color:white;
+    text-decoration:none;
+    margin-left:16px;
+    font-weight:600;
+    padding:8px 18px;
+    border-radius:25px;
+    transition:0.3s;
+}
+
+.nav a:hover{
+    background:rgba(255,255,255,0.25);
+}
+
+.nav a.active{
+    background:rgba(255,255,255,0.35);
+}
+
+/* Logout */
+.nav a.logout{
+    background:#263238;
+}
+
+.nav a.logout:hover{
+    background:#000;
+}
+.nav a.active{
+    background:rgba(255,255,255,0.25);
+}
+
+/* Responsive */
+@media(max-width:900px){
+    .nav{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+
+    <!-- LOGO -->
+    <div class="logo">
+        <i class="fa-solid fa-droplet"></i>
+        Blood Bank System
+    </div>
+
+    <!-- MENU -->
+    <div class="nav">
+        <a href="index.jsp">
+            <i class="fa-solid fa-house"></i> Home
+        </a>
+
+
+        <a href="bloodRequest.jsp">
+            <i class="fa-solid fa-hand-holding-medical"></i> Request Blood
+        </a>
+
+        <a href="About_US.jsp">
+            <i class="fa-solid fa-circle-check"></i> About US
+        </a>
+         <a href="adminLogin.jsp">
+            <i class="fa-solid fa-user-plus"></i> Admin Login
+        </a>
+        
+
+      
+        
+    </div>
+
+</div>
+
+</body>
+</html>
